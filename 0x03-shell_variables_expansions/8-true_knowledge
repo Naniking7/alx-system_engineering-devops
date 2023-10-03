@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $((3 * $KNOWLEDGE))
+echo $((128 * $KNOWLEDGE))
