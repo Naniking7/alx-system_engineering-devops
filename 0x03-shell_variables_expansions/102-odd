@@ -1,2 +1,2 @@
 #!/bin/bash
-head -n $(($(wc -l < /dev/stdin) / 2)) /dev/stdin | tail -n +1'
+tr '\n' '\0' | tr -d -c '\0' | tr -d '\0' | tr '\n' '\0' | tr -d -c '\0' | tr -d '\0'
